@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Sans MS";
+  font-size: large;
+}
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.alinhado {
+  display: flex;
+  justify-content: start;
+  height: 100vh;
+  width: 310px;
+}
+.info {
+  width: 310px;
+  background-color: rgb(235, 252, 161);
+  border-right: solid rgba(112, 110, 110, 0.74);
+}
+.info .foto{
+ background-image: url(https://i.pinimg.com/236x/d4/7e/32/d47e326f5acebcc6c564dd55fd433a97.jpg);
+ width:120px; 
+ height: 120px;
+ border-radius:120px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.foto{
+    margin-left: 80px;
+}
+.info .quemsou {
+  padding: 10px;
+}
+.tecnologia h3{
+  padding: 10px;
+}
+.piggie li {
+  list-style: none;
+  padding: 10px;
+}
+.alinhamento{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.text li{
+    font-size: larger;
+    list-style: none;
+    padding: 50px;
+}
